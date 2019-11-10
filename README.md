@@ -1,4 +1,4 @@
-# Workshop 1: Custom Vision AI - Find the Right Tool
+# Workshop: Custom Vision AI - Find the Right Tool
 
 ## Session Information
 
