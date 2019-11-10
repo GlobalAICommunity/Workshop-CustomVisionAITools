@@ -1,12 +1,11 @@
-# Workshop 1: Custom Vision AI - Find the Right Tool!
+# Workshop 1: Custom Vision AI - Find the Right Tool
 
 ## Session Information
 
 **Session Title:** Creating applications that can see, hear, speak or understand - using Microsoft Cognitive Services
 
 **Session Abstract:** In this workshop you will be introduced to the [Microsoft Azure Cognitive Services](https://azure.microsoft.com/en-gb/services/cognitive-services/?WT.mc_id=ainights-github-heboelma), a range of offerings you can use to infuse intelligence and machine learning into your applications without needing to build the code from scratch.
-We will cover pre-trained AI APIs, such as [computer vision](https://azure.microsoft.com/en-gb/services/cognitive-services/directory/vision/?WT.mc_id=ainights-github-amynic), that are accessed by REST protocol. Next we will dive into Custom AI that uses transfer learning - [Microsoft Azure Custom Vision](https://azure.microsoft.com/en-gb/services/cognitive-services/custom-vision-service/?WT.mc_id=ainights-github-heboelma). This enables you to provide a small amount of your own data to train an image classification model. Wrapping the workshop up by building our custom trained AI into an application - using [Logic Apps](https://azure.microsoft.com/en-gb/services/logic-apps/?WT.mc_id=ainights-github-heboelma), this technology is ideal for building data pipeline processes that work with your machine learning models.
-
+We will cover pre-trained AI APIs, such as [computer vision](https://azure.microsoft.com/en-gb/services/cognitive-services/directory/vision/?WT.mc_id=ainights-github-heboelma), that are accessed by REST protocol. Next we will dive into Custom AI that uses transfer learning - [Microsoft Azure Custom Vision](https://azure.microsoft.com/en-gb/services/cognitive-services/custom-vision-service/?WT.mc_id=ainights-github-heboelma). This enables you to provide a small amount of your own data to train an image classification model. Wrapping the workshop up by building our custom trained AI into an application - using [Logic Apps](https://azure.microsoft.com/en-gb/services/logic-apps/?WT.mc_id=ainights-github-heboelma), this technology is ideal for building data pipeline processes that work with your machine learning models.
 
 ## Pre-requisites for your machine
 
@@ -43,11 +42,10 @@ First create a Resource Group.
 * Go to the [Azure Portal](https://ms.portal.azure.com) main dashboard.
 * Click 'Create a Resource' in the top left
 * Search for 'Resource group'
-* Enter details to create
-
-    * A name for the resource group
-    * Select the location
-    * Click Create
+* Enter details to create:
+  * A name for the resource group
+  * Select the location
+  * Click Create
 
 ![Resource Group Details](docsimages/createResourceGroup.png)  
 
@@ -59,14 +57,13 @@ Now create a Custom Vision instance in your Azure account.
 * Click +Add
 * Search for Custom Vision
 * Click Create
-* Enter details to create
-
-    * A name for the service
-    * Select your subscription
-    * Select the data centre location (in this example West Europe, but you can select your own region)
-    * Choose the S0 tier for both 'Prediction pricing tier' and Training pricing tier
-    * Select your created Resource group and make sure it is in the same data centre location (in this case 'globalaibootcamp' in West Europe
-    * Click Create
+* Enter details to create:
+  * A name for the service
+  * Select your subscription
+  * Select the data centre location (in this example West Europe, but you can select your own region)
+  * Choose the S0 tier for both 'Prediction pricing tier' and Training pricing tier
+  * Select your created Resource group and make sure it is in the same data centre location (in this case 'globalaibootcamp' in West Europe
+  * Click Create
 
 ### Build Classifier
 
@@ -167,7 +164,7 @@ You can use the prior info to set the URL, the Header and the Body (using both a
 * Type of request: select POST
 * URL: enter the Prediction URL
 * Headers: set "Prediction-Key" and "Content-Type" items, in this case we use a URL for the image, so we set Content-Type to JSON
-* Body: in this case we enter the image URL "https://upload.wikimedia.org/wikipedia/commons/d/d7/Battdrill.jpg"
+* Body: in this case we enter the image URL "<https://upload.wikimedia.org/wikipedia/commons/d/d7/Battdrill.jpg>"
 
 ![Postman Header](docsimages/postmanHeader.png)
 
@@ -221,7 +218,6 @@ We need to add a container to the storage account to store our images and result
 
 Select the **+ Container** button and create a name for the container
 > an example for the **globalaistor** account would be **images**
-
 > an example for the **globalairesult** account would be **results**
 
 For the public access level setting select **Container (anonymous read access for containers and blobs)**
@@ -240,7 +236,6 @@ Navigate to Subscriptions, select your subscription and find Resource Providers 
 If this is not already status registered, select **register** from the toolbar.
 
 ![Register Event Grid selection](docsimages/eventgrid.png)
-
 
 Once registered with a green tick - go back to your Resource Group. Select **Add**. Type Logic App and select the service.
 
