@@ -1,4 +1,4 @@
-# Workshop: Custom Vision AI - Find the Right Tool
+# Workshop: Azure Custom Vision - Find the Right Tool
 
 ## Session Information
 
