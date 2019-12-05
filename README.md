@@ -9,7 +9,7 @@ We will cover pre-trained AI APIs, such as [computer vision](https://azure.micro
 
 ## Pre-requisites for your machine
 
-* Clone this repository to your local machine to gain images and code samples you need for the demos: ```git clone https://github.com/mdragt/GoDataFest.git``` or choose 'Clone or Download' green button and then 'Download ZIP'
+* Clone this repository to your local machine to gain images and code samples you need for the demos: ```git clone https://github.com/GlobalAICommunity/Workshop-CustomVisionAITools.git``` or choose 'Clone or Download' green button and then 'Download ZIP'
 * Azure Pass or [Microsoft Azure Subscription](https://azure.microsoft.com/en-gb/free/?WT.mc_id=ainights-github-heboelma)
 * Laptop with a modern web browser (Google Chrome, Microsoft Edge)
 * Postman, API Development Environment - [available on Windows, Linux and macOS](https://www.getpostman.com/)
@@ -18,14 +18,15 @@ We will cover pre-trained AI APIs, such as [computer vision](https://azure.micro
 
 ## Sections
 
+* **Task 0:** Microsoft Azure Cognitive Services - Computer Vision [Go to Section](#task-0-microsoft-azure-cognitive-services---computer-vision)
 * **Task 1:** Microsoft Azure Cognitive Services - Custom Vision [Go to Section](#task-1-microsoft-azure-cognitive-services---custom-vision)
 * **Task 2:** Build Custom AI into an Application - Azure Logic Apps [Go to Section](#task-2-build-custom-ai-into-an-application---azure-logic-apps)
 
-## Task 1: Microsoft Azure Cognitive Services - Custom Vision
+## Task 0: Microsoft Azure Cognitive Services - Computer Vision
 
-Using Microsoft Azure Custom Vision service you can start to build your own personalised image classification and object detection algorithms with very little code. In this exercise we will create a tool classification algorithm using tool images sourced from [WikiMedia Commons](https://github.com/mdragt/ignite-learning-paths/blob/master/aiml/aiml20/CV%20training%20images/ATTRIBUTIONS.md), used for the Ignite Tours.
+Microsoft Azure Cognitive Services contain some pre-built models for the most typical tasks, such as object detection in pictures, speech recognition and synthesis, sentiment analysis and so on. Let us test the **[Computer Vision API](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=ainights-github-dmitryso)** service to see if it can recognize some specific objects in one particular problem domain: construction. 
 
-We have 5 classes of tools with a various amount of images each. You can find the training files [here](CV%20training%20images/):
+Suppose we need to create an application that recognizes 5 types of tools:
 
 * Drills
 * Hammers
@@ -33,7 +34,26 @@ We have 5 classes of tools with a various amount of images each. You can find th
 * Pliers
 * Screwdrivers
 
-There is also a set of test images (not for training) in this [folder](CV%20test%20images).
+We will use tool images sourced from [WikiMedia Commons](https://github.com/mdragt/ignite-learning-paths/blob/master/aiml/aiml20/CV%20training%20images/ATTRIBUTIONS.md), used for the Ignite Tours.
+
+In this repository, we have provided two sets of images for each of the 5 classes above:
+ * [training files](CV%20training%20images/) that we will use for training our own custom model later
+ * [test images](CV%20test%20images), which we will use to evaluate the model
+
+Let us start by looking at how pre-trained [Computer Vision cognitive service](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=ainights-github-dmitryso) can see our images:
+
+ * Go to the home page of [Computer Vision Service](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=ainights-github-dmitryso)
+ * Scroll down to **See it in action** section
+ * Upload one of the gear pictures from our dataset by clicking **Browse** button, or provide URL of the picture directly from GitHub
+ * Observe how the image has been classified:
+
+![Computer Vision Results](docsimages/compVision.png)
+
+While some of the objects (such as helmets or drills) can be recognized by the pre-trained model, more specialized objects (like pliers, or even hammers) are not determined correctly.
+
+## Task 1: Microsoft Azure Cognitive Services - Custom Vision
+
+Using Microsoft Azure Custom Vision service you can start to build your own personalised image classification and object detection algorithms with very little code. In this exercise we will create a tool classification algorithm using 
 
 ### Create Resource Group
 
