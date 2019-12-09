@@ -4,13 +4,13 @@
 
 **Session Title:** Creating applications that can see, hear, speak or understand - using Microsoft Cognitive Services
 
-**Session Abstract:** In this workshop you will be introduced to the [Microsoft Azure Cognitive Services](https://azure.microsoft.com/en-gb/services/cognitive-services/?WT.mc_id=workshop-github-dmitryso), a range of offerings you can use to infuse intelligence and machine learning into your applications without needing to build the code from scratch.
-We will cover pre-trained AI APIs, such as [computer vision](https://azure.microsoft.com/en-gb/services/cognitive-services/directory/vision/?WT.mc_id=workshop-github-dmitryso), that are accessed by REST protocol. Next we will dive into Custom AI that uses transfer learning - [Microsoft Azure Custom Vision](https://azure.microsoft.com/en-gb/services/cognitive-services/custom-vision-service/?WT.mc_id=workshop-github-dmitryso). This enables you to provide a small amount of your own data to train an image classification model. Wrapping the workshop up by building our custom trained AI into an application - using [Logic Apps](https://azure.microsoft.com/en-gb/services/logic-apps/?WT.mc_id=workshop-github-dmitryso), this technology is ideal for building data pipeline processes that work with your machine learning models.
+**Session Abstract:** In this workshop you will be introduced to the [Microsoft Azure Cognitive Services](https://azure.microsoft.com/en-gb/services/cognitive-services/?WT.mc_id=gaic-github-heboelma), a range of offerings you can use to infuse intelligence and machine learning into your applications without needing to build the code from scratch.
+We will cover pre-trained AI APIs, such as [computer vision](https://azure.microsoft.com/en-gb/services/cognitive-services/directory/vision/?WT.mc_id=gaic-github-heboelma), that are accessed by REST protocol. Next we will dive into Custom AI that uses transfer learning - [Microsoft Azure Custom Vision](https://azure.microsoft.com/en-gb/services/cognitive-services/custom-vision-service/?WT.mc_id=gaic-github-heboelma). This enables you to provide a small amount of your own data to train an image classification model. Wrapping the workshop up by building our custom trained AI into an application - using [Logic Apps](https://azure.microsoft.com/en-gb/services/logic-apps/?WT.mc_id=gaic-github-heboelma), this technology is ideal for building data pipeline processes that work with your machine learning models.
 
 ## Pre-requisites for your machine
 
 * Clone this repository to your local machine to gain images and code samples you need for the demos: ```git clone https://github.com/GlobalAICommunity/Workshop-CustomVisionAITools.git``` or choose 'Clone or Download' green button and then 'Download ZIP'
-* Azure Pass or [Microsoft Azure Subscription](https://azure.microsoft.com/en-gb/free/?WT.mc_id=workshop-github-dmitryso)
+* Azure Pass or [Microsoft Azure Subscription](https://azure.microsoft.com/en-gb/free/?WT.mc_id=gaic-github-heboelma)
 * Laptop with a modern web browser (Google Chrome, Microsoft Edge)
 * Postman, API Development Environment - [available on Windows, Linux and macOS](https://www.getpostman.com/)
 
@@ -24,7 +24,7 @@ We will cover pre-trained AI APIs, such as [computer vision](https://azure.micro
 
 ## Task 0: Microsoft Azure Cognitive Services - Computer Vision
 
-Microsoft Azure Cognitive Services contain some pre-built models for the most typical tasks, such as object detection in pictures, speech recognition and synthesis, sentiment analysis and so on. Let us test the **[Computer Vision API](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=workshop-github-dmitryso)** service to see if it can recognize some specific objects in one particular problem domain: construction. 
+Microsoft Azure Cognitive Services contain some pre-built models for the most typical tasks, such as object detection in pictures, speech recognition and synthesis, sentiment analysis and so on. Let us test the **[Computer Vision API](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=gaic-github-heboelma)** service to see if it can recognize some specific objects in one particular problem domain: construction. 
 
 Suppose we need to create an application that recognizes 5 types of tools:
 
@@ -40,9 +40,9 @@ In this repository, we have provided two sets of images for each of the 5 classe
  * [training files](CV%20training%20images/) that we will use for training our own custom model later
  * [test images](CV%20test%20images), which we will use to evaluate the model
 
-Let us start by looking at how pre-trained [Computer Vision cognitive service](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=workshop-github-dmitryso) can see our images:
+Let us start by looking at how pre-trained [Computer Vision cognitive service](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=gaic-github-heboelma) can see our images:
 
- * Go to the home page of [Computer Vision Service](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=workshop-github-dmitryso)
+ * Go to the home page of [Computer Vision Service](https://azure.microsoft.com/services/cognitive-services/computer-vision/?WT.mc_id=gaic-github-heboelma)
  * Scroll down to **See it in action** section
  * Upload one of the gear pictures from our dataset by clicking **Browse** button, or provide URL of the picture directly from GitHub
  * Observe how the image has been classified:
@@ -87,7 +87,7 @@ Now create a Custom Vision instance in your Azure account.
 
 ### Build Classifier
 
-Now we can build our classifier, navigate to [https://www.customvision.ai](https://www.customvision.ai/?WT.mc_id=workshop-github-dmitryso) and choose sign in. Sign in with your Azure credentials account.
+Now we can build our classifier, navigate to [https://www.customvision.ai](https://www.customvision.ai/?WT.mc_id=gaic-github-heboelma) and choose sign in. Sign in with your Azure credentials account.
 
 > Accept the terms and conditions box to continue.
 
