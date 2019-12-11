@@ -81,7 +81,7 @@ Now create a Custom Vision instance in your Azure account.
   * A name for the service
   * Select your subscription
   * Select the data centre location (in this example West Europe, but you can select your own region)
-  * Choose the S0 tier for both 'Prediction pricing tier' and Training pricing tier
+  * Choose the F0 tier for both 'Prediction pricing tier' and Training pricing tier
   * Select your created Resource group and make sure it is in the same data centre location (in this case 'globalaibootcamp' in West Europe
   * Click Create
 
