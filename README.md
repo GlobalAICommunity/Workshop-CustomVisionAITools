@@ -2,15 +2,12 @@
 
 ## Session Information
 
-
+| | |
 |--|--|
-| **Session Duration:** | 120 minutes  |
+| ** Duration:** | 120 minutes  |
 | **Session Type:** | Instructor presentation (15 min)  & hands-on lab (90 min) |
 | **Session Title:**  | Create an application that can see with Azure Custom Vision | 
- 
-
-
-**Session Abstract:**  
+| **Session Abstract:** | |
 In this workshop you will be introduced to the [Microsoft Azure Cognitive Services](https://azure.microsoft.com/en-gb/services/cognitive-services/?WT.mc_id=gaic-github-cxa), a range of offerings you can use to infuse intelligence and machine learning into your applications without needing to build the code from scratch.
 We will cover pre-trained AI APIs, such as [computer vision](https://azure.microsoft.com/en-gb/services/cognitive-services/directory/vision/?WT.mc_id=gaic-github-cxa), that are accessed by REST protocol. Next we will dive into Custom AI that uses transfer learning - [Microsoft Azure Custom Vision](https://azure.microsoft.com/en-gb/services/cognitive-services/custom-vision-service/?WT.mc_id=gaic-github-cxa). This enables you to provide a small amount of your own data to train an image classification model. Wrapping the workshop up by building our custom trained AI into an application - using [Logic Apps](https://azure.microsoft.com/en-gb/services/logic-apps/?WT.mc_id=gaic-github-cxa), this technology is ideal for building data pipeline processes that work with your machine learning models.
 
