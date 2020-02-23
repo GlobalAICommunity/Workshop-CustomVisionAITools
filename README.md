@@ -19,6 +19,13 @@ We will cover pre-trained AI APIs, such as [computer vision](https://azure.micro
 
 > *All demos and content have been tested on a Windows PC, however all options should run from macOS and Linux machines as well. Please provide information via an issue or pull request if you have feedback on other operating systems*  
 
+## Content
+
+|||
+|--|--|
+| Trainer information | [goto]()
+| Workshop | [Goto]()
+
 ## Trainer information
 * [Train the trainer video]()
 
