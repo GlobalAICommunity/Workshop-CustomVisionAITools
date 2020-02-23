@@ -1,7 +1,7 @@
 # Workshop: Create an application that can see with Azure Custom Vision
 
 
-| Session summary | |
+| ###Session summary | |
 -- | --
 | **Duration:** | 120 minutes  |
 | **Type:** | Instructor presentation (15 min)  <br/> hands-on lab (90 min) |
