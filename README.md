@@ -1,6 +1,6 @@
 # Workshop: Azure Custom Vision - Find the Right Tool
 
-## Session Information
+### Session Information
 
 **Session Title:**   
 Creating applications that can see, hear, speak or understand - using Microsoft Cognitive Services
