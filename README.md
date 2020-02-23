@@ -22,6 +22,6 @@ We will cover pre-trained AI APIs, such as [computer vision](https://azure.micro
 
 ## Hands-on Lab
 
-* **Task 0:** Microsoft Azure Cognitive Services - Computer Vision [Go to Section](#task-0-microsoft-azure-cognitive-services---computer-vision)
-* **Task 1:** Microsoft Azure Cognitive Services - Custom Vision [Go to Section](#task-1-microsoft-azure-cognitive-services---custom-vision)
-* **Task 2:** Build Custom AI into an Application - Azure Logic Apps [Go to Section](#task-2-build-custom-ai-into-an-application---azure-logic-apps)
+* **Lab 1:** Microsoft Azure Cognitive Services - Computer Vision [Go to Lab](hands-on-lab/lab-1.md)
+* **Lab 2:** Microsoft Azure Cognitive Services - Custom Vision [Go to Lab](hands-on-lab/lab-2.md)
+* **Lab 3:** Build Custom AI into an Application - Azure Logic Apps [Go to Lab](hands-on-lab/lab-3.md)
