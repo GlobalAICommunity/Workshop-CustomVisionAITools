@@ -25,4 +25,4 @@ We will cover pre-trained AI APIs, such as [computer vision](https://azure.micro
 |||
 |--|--|
 | Trainer information | [goto](trainer.md)
-| Workshop | [Goto](workshop.md)
+| Workshop content | [Goto](workshop.md)
