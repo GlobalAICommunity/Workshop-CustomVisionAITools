@@ -2,10 +2,11 @@
 
 ## Session Information
 
-**Session Duration:**
+**Session Duration:** 
+120 minutes
  
 **Session Title:**   
-Creating applications that can see, hear, speak or understand - using Microsoft Cognitive Services
+Create an application that can see - using Microsoft Cognitive Services
 
 **Session Abstract:**  
 In this workshop you will be introduced to the [Microsoft Azure Cognitive Services](https://azure.microsoft.com/en-gb/services/cognitive-services/?WT.mc_id=gaic-github-cxa), a range of offerings you can use to infuse intelligence and machine learning into your applications without needing to build the code from scratch.
@@ -21,9 +22,9 @@ We will cover pre-trained AI APIs, such as [computer vision](https://azure.micro
 ## Trainer information
 * [Train the trainer video]()
 
+## Attendee workshop
 
 ## Part 1 - Introduction to Custom Vision (15 minutes)
-
 * [Slides]()
 
 ## Part 2 - Hands-on Lab  (90 minutes)
