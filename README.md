@@ -2,7 +2,6 @@
 
 
 | Session summary | |
-|--|--|
 | **Duration:** | 120 minutes  |
 | **Type:** | Instructor presentation (15 min)  & hands-on lab (90 min) |
 
