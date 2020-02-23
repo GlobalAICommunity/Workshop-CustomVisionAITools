@@ -2,7 +2,7 @@
 
 ## Session Information
 
-**Session Duration:** 
+**Session Duration:**   
 120 minutes
  
 **Session Title:**   
