@@ -27,7 +27,8 @@ We will cover pre-trained AI APIs, such as [computer vision](https://azure.micro
 
 |||
 |--|--|
-| Trainer information | [goto](trainer.md)
-| Workshop content | [Goto](workshop.md)
+| **Trainer information** | [goto](trainer.md)
+| **Workshop content** | [Goto](workshop.md)
 
 ## Ask a question?
+Any questions please create an issue or send an email to: hq@globalai.community.
