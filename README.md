@@ -7,7 +7,7 @@
 | **Type:** | Instructor presentation (15 min)  <br/> hands-on lab (90 min) |
 
 **Title:**  
-Create an application that can see with Azure Custom Vision | 
+Create an application that can see with Azure Custom Vision
 
 **Abstract:**    
 In this workshop you will be introduced to the [Microsoft Azure Cognitive Services](https://azure.microsoft.com/en-gb/services/cognitive-services/?WT.mc_id=gaic-github-cxa), a range of offerings you can use to infuse intelligence and machine learning into your applications without needing to build the code from scratch.
