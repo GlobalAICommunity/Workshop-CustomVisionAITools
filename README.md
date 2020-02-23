@@ -1,4 +1,4 @@
-# Workshop: Azure Custom Vision - Find the Right Tool
+# Workshop: Create an application that can see with Azure Custom Vision
 
 ## Session Information
 
@@ -6,7 +6,7 @@
 120 minutes
  
 **Session Title:**   
-Create an application that can see - using Microsoft Cognitive Services
+Create an application that can see with Azure Custom Vision
 
 **Session Abstract:**  
 In this workshop you will be introduced to the [Microsoft Azure Cognitive Services](https://azure.microsoft.com/en-gb/services/cognitive-services/?WT.mc_id=gaic-github-cxa), a range of offerings you can use to infuse intelligence and machine learning into your applications without needing to build the code from scratch.
