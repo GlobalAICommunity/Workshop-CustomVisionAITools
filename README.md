@@ -1,6 +1,6 @@
 # Workshop: Azure Custom Vision - Find the Right Tool
 
-### Session Information
+## Session Information
 
 **Session Duration:**
  
