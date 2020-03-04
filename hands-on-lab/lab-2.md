@@ -58,7 +58,7 @@ Click on 'Create Project' and you will land on an empty workspace.
 
 Now you can start adding images and assigning them tags to create our image classifier.
 
-* In the top left, select 'Add images', browse for the first folder of images from the [training data](CV%20training%20images/) - Drills - and select all the images in the folder.
+* In the top left, select 'Add images', browse for the first folder of images from the [training data](../CV%20training%20images/) - Drills - and select all the images in the folder.
 
 * Add the tag 'drills' to the drills images and select 'Upload files'
 
