@@ -141,3 +141,5 @@ Now click on Send...
 What kind of tool did you upload?
 
 **Great work!** you have created your specialised tool classification model using the Azure Custom Vision Service
+
+[Continue with lab 2](lab-3.md)
